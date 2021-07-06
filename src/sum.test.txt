@@ -1,0 +1,6 @@
+import sum from './sum';
+
+it("sum of a and b should be =>", () => {
+  let result = sum(5)(5);
+  expect(result).toBe(10);
+});
